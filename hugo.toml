@@ -52,11 +52,17 @@ theme = "PaperMod"
     subtitle = "Welcome to my personal website"
 
   [[params.socialIcons]]
-    name = "email"
-    url = "mailto:your.email@example.com"
-  [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/shreygupta"
+    url = "https://github.com/shrey1306/"
+  [[params.socialIcons]]
+    name = "substack"
+    url = "https://substack.com/@sgupta1306"
+  [[params.socialIcons]]
+    name = "linkedin"
+    url = "https://www.linkedin.com/in/shreygupta13"
+  [[params.socialIcons]]
+    name = "twitter"
+    url = "https://x.com/ShreyG1306"
 
 [menu]
   [[menu.main]]
