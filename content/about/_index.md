@@ -23,12 +23,3 @@ Welcome to my personal website! I'm Shrey Gupta, and this is where I share my th
 ## Contact
 
 Feel free to reach out to me at [your email] or connect with me on [social media platforms].
-
----
-## Subscribe to About Section RSS
-
-You can subscribe to updates from this website using any RSS reader:
-
-- [Main Site RSS Feed](https://shrey1306.github.io/index.xml)
-
-Copy and paste the link above into your favorite RSS reader to get notified of all new posts and updates!
