@@ -1,0 +1,42 @@
+body {
+  font-size: 22px !important;
+}
+
+h1, .profile-title {
+  font-size: 2.5em !important;
+}
+h2 { font-size: 2em !important; }
+h3 { font-size: 1.6em !important; }
+h4, h5, h6 { font-size: 1.2em !important; }
+
+/* Make profile image larger and centered */
+.profile-inner img, .profile-content img {
+  width: 180px !important;
+  height: 180px !important;
+  object-fit: cover !important;
+  border-radius: 50% !important;
+  margin-bottom: 1rem !important;
+}
+
+/* Hide only the site label text, not the whole header */
+.header-title-text, .site-title, .logo__text {
+  display: none !important;
+}
+
+/* Make menu font larger and darker */
+.header-nav, .menu-main, .menu, .nav, .header-menu {
+  font-size: 1.25em !important;
+  color: #222 !important;
+  font-weight: 600 !important;
+}
+
+/* Make theme toggle button visible and bigger */
+.theme-toggle, .theme-switch {
+  font-size: 2em !important;
+  width: 2.2em !important;
+  height: 2.2em !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  color: #222 !important;
+} 

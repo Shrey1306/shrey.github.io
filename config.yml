@@ -1,0 +1,104 @@
+baseURL: "https://shreygupta.github.io/"
+title: "Shrey Gupta"
+paginate: 5
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON # necessary for search
+
+params:
+  env: production
+  title: "Shrey Gupta"
+  description: "Personal website and blog"
+  keywords: [Blog, Portfolio, PaperMod]
+  author: "Shrey Gupta"
+  images: ["/img/icon.jpg"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: false
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+  enableLatex: true
+
+  assets:
+    favicon: "/img/icon.jpg"
+    favicon16x16: "/img/icon.jpg"
+    favicon32x32: "/img/icon.jpg"
+    apple_touch_icon: "/img/icon.jpg"
+    safari_pinned_tab: "/img/icon.jpg"
+    customCSS: ["css/extended/fontsize.css"]
+
+  label:
+    text: "Shrey Gupta"
+
+  profileMode:
+    enabled: true
+    title: "Shrey Gupta"
+    imageUrl: "/img/icon.jpg"
+    imageWidth: 180
+    imageHeight: 180
+    imageTitle: "Profile Picture"
+    subtitle: "Welcome to my personal website"
+
+  socialIcons:
+    - name: email
+      url: "mailto:your.email@example.com"
+    - name: github
+      url: "https://github.com/shreygupta"
+
+menu:
+  main:
+    - identifier: about
+      name: about
+      url: /about/
+      weight: 10
+    - identifier: projects
+      name: projects
+      url: /projects/
+      weight: 20
+    - identifier: blog
+      name: blog
+      url: /posts/
+      weight: 30
+    - identifier: 5-9
+      name: 5-9
+      url: /5-9/
+      weight: 40
+    - identifier: reading
+      name: reading
+      url: /reading/
+      weight: 50
+
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+  goldmark:
+    renderer:
+      unsafe: true 
