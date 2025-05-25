@@ -1,4 +1,4 @@
-baseUR= "https://shrey1306.github.io/shreygupta/"
+baseURL: "https://shrey1306.github.io/"
 title = "Shrey Gupta"
 theme = "PaperMod"
 
