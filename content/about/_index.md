@@ -1,25 +1,37 @@
 ---
-title: "About"
+title: "About Me"
+draft: false
 ---
 
-Welcome to my personal website! I'm Shrey Gupta, and this is where I share my thoughts, projects, and interests.
+Hi! I'm Shrey, a Computer Science student at Georgia Tech specializing in Intelligence and Information Internetworks. I'm passionate about building systems that solve real-world problems, particularly at the intersection of AI & Systems.
 
-## About Me
+## What I Do
 
-[Your introduction here]
+I'm currently working on exciting projects in AI inference and Distributed Systems. At Twilio, I'm helping secure API infrastructure for millions of developers. Previously at Mindtickle, I built performance optimization tools that reduced page load times by 65% and saved hundreds of engineering hours.
 
-## Education
 
-[Your education details here]
+## Technical Expertise
 
-## Experience
+I love working with:
+- **Languages**: Python, Java, C++, Go, and the MERN / Next.js stack for the web
+- **AI/ML**: TensorFlow, PyTorch, vLLM OpenSource Project
+- **Cloud**: AWS, Docker, Kubernetes, Vercel and microservices
 
-[Your experience details here]
 
-## Skills
+## Beyond Code
 
-[Your skills here]
+When I'm not coding, I'm:
+- Mentoring student athletes at Georgia Tech
+- Contributing to Atlanta's startup ecosystem through Startup Exchange
+- Writing about technology and AI on my [Substack](https://substack.com/@sgupta1306)
+- Exploring new technologies and contributing to open-source projects
 
-## Contact
+## Let's Connect
 
-Feel free to reach out to me at [your email] or connect with me on [social media platforms].
+I'm always excited to connect with developers, researchers, tech enthusiasts, and recruiters. Feel free to reach out through:
+- [LinkedIn](https://linkedin.com/in/shreygupta13)
+- [GitHub](https://github.com/Shrey1306)
+- [Twitter](https://x.com/ShreyG1306)
+- say hi here: sgupts1306 [at] gmail [dot] com
+
+let's work together!
