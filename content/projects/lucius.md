@@ -17,7 +17,12 @@ of abstract ideas into fully functional, testable software systems within minute
 Currently in development: a human-in-the-loop collaboration system with real-time editing capabilities and integrated security 
 monitoring through the Robin framework for safe and responsible AI-driven development.
 
-<video width="100%" controls>
-    <source src="/videos/lucius-twitter.mov" type="video/quicktime">
-    Your browser does not support the video tag.
-</video> 
+<div style="margin: 2rem 0;">
+    <video width="100%" height="400" controls preload="metadata" style="border-radius: 8px; max-width: 100%;">
+        <source src="/videos/lucius-twitter.mov" type="video/quicktime">
+        <source src="/videos/lucius-twitter.mov" type="video/mp4">
+        <p>Your browser doesn't support HTML5 video. <a href="/videos/lucius-twitter.mov">Download the video</a> instead.</p>
+    </video>
+</div>
+
+<a href="https://lucius-swe.streamlit.app/" target="_blank" rel="noopener">�� View Project</a> 

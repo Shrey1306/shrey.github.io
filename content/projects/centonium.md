@@ -10,4 +10,5 @@ Developed a scalable distributed browsing platform enabling autonomous agent nav
 
 Engineered an Orchestrator with LLMCompiler and EigenTrust/PageRank for secure inter-agent communication.
 
-Built a User-Context Layer for secure, dynamic user profile management; Won 'Best Use of AWS' at Hacklytics 2025. 
+Built a User-Context Layer for secure, dynamic user profile management; Won 'Best Use of AWS' at Hacklytics 2025.
+

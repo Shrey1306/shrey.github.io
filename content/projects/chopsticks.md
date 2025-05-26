@@ -3,7 +3,7 @@ title: "Chopsticks"
 draft: false
 description: "AI-Powered Video Editing Software - Stanford TreeHacks 2024"
 tags: ["Python", "Reflex", "ReactJS", "Whisper", "Roberta", "T5", "DeepFace", "OpenCV", "Streamlit"]
-image: "/img/projects/chopsticks.jpg"
+image: "/img/chopsticks.png"
 link: "https://chopsticks.streamlit.app/"
 ---
 
@@ -13,4 +13,6 @@ Developed an intelligent system using Whisper, Roberta, T5, and DeepFace for aut
 
 Created a dual-mode interface with chat-powered editing and analytics, reducing content editing time by 30% through automated clip identification.
 
-Implemented end-to-end video processing pipeline with voice transcription, chat analysis, and real-time processing using Reflex framework. 
+Implemented end-to-end video processing pipeline with voice transcription, chat analysis, and real-time processing using Reflex framework.
+
+<a href="https://chopsticks.streamlit.app/" target="_blank" rel="noopener">�� View Project</a> 

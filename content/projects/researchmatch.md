@@ -33,4 +33,6 @@ Future Features:
 - Hybrid ranker combining BM25, ANN & re-ranking LLM
 - Personalized digests through Notification Hub
 
-Developed for CS6675: Advanced Internet Systems and Applications at Georgia Tech. 
+Developed for CS6675: Advanced Internet Systems and Applications at Georgia Tech.
+
+<a href="https://substack.com/profile/197564043-shrey-gupta/note/c-120214927" target="_blank" rel="noopener">🔗 Read on Substack</a> 

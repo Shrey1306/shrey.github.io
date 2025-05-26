@@ -13,4 +13,6 @@ A telemedicine platform for Mohs Micrographic Surgery, featuring real-time 3D fa
 Developed a GraphRAG pipeline using Neo4j, AWS Transcribe, and Meditron 7B to generate time-stamped, context-aware
 medical transcriptions, streamlining surgical documentation and improving workflow efficiency over a secured network.
 
-Awarded first place out of 200+ teams at Georgia Tech's premier hackathon. 
+Awarded first place out of 200+ teams at Georgia Tech's premier hackathon.
+
+<a href="https://bit.ly/47V9ft2" target="_blank" rel="noopener">�� View Project</a> 
