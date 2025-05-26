@@ -17,4 +17,7 @@ of abstract ideas into fully functional, testable software systems within minute
 Currently in development: a human-in-the-loop collaboration system with real-time editing capabilities and integrated security 
 monitoring through the Robin framework for safe and responsible AI-driven development.
 
-{{< video src="static/videos/lucius-twitter.mov" controls="true" >}} 
+<video width="100%" controls>
+    <source src="/videos/lucius-twitter.mov" type="video/quicktime">
+    Your browser does not support the video tag.
+</video> 
