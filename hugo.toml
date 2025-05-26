@@ -49,7 +49,7 @@ theme = "PaperMod"
     imageWidth = 180
     imageHeight = 180
     imageTitle = "Profile Picture"
-    subtitle = "Welcome to my personal website"
+    subtitle = "hi nice to meet you! say hi here:"
 
   [[params.socialIcons]]
     name = "github"
