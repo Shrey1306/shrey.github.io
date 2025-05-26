@@ -2,8 +2,5 @@
 title: "Blog"
 ---
 
-Welcome to my blog! Here I share my thoughts on technology, programming, and other interests.
+Hi, welcome. This is my favourite section. I write about technology and my life.
 
-## Recent Posts
-
-[Your blog posts will appear here] 
