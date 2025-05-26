@@ -24,7 +24,7 @@ params:
   description: "Personal website and blog"
   keywords: [Blog, Portfolio, PaperMod]
   author: "Shrey Gupta"
-  images: ["/img/icon.jpg"]
+  images: ["/img/favicon.png"]
   DateFormat: "January 2, 2006"
   defaultTheme: auto
   disableThemeToggle: false
@@ -47,11 +47,11 @@ params:
   enableLatex: true
 
   assets:
-    favicon: "/img/icon.jpg"
-    favicon16x16: "/img/icon.jpg"
-    favicon32x32: "/img/icon.jpg"
-    apple_touch_icon: "/img/icon.jpg"
-    safari_pinned_tab: "/img/icon.jpg"
+    favicon: "/img/favicon.png"
+    favicon16x16: "/img/favicon.png"
+    favicon32x32: "/img/favicon.png"
+    apple_touch_icon: "/img/favicon.png"
+    safari_pinned_tab: "/img/favicon.png"
     customCSS: ["css/extended/fontsize.css"]
 
   label:
@@ -68,9 +68,9 @@ params:
 
   socialIcons:
     - name: email
-      url: "mailto:your.email@example.com"
+      url: "mailto:sgupts1306@gmail.com"
     - name: github
-      url: "https://github.com/shreygupta"
+      url: "https://github.com/shrey1306"
 
 menu:
   main:
