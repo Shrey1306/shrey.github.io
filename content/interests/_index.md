@@ -14,7 +14,7 @@ I'm passionate about cricket and follow both domestic and international cricket 
         <p style="margin: 0.5rem 0; font-weight: bold;">RCB</p>
     </div>
     <div style="text-align: center;">
-        <img src="img/bcci.png" alt="Board of Control for Cricket in India" style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px;">
+        <img src="/img/bcci.png" alt="Board of Control for Cricket in India" style="width: 150px; height: 150px; object-fit: cover; border-radius: 8px;">
         <p style="margin: 0.5rem 0; font-weight: bold;">Indian Cricket</p>
     </div>
 </div>
