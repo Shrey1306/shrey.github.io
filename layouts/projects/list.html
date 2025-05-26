@@ -1,15 +1,14 @@
 {{ define "main" }}
 <div class="projects-container">
-    {{ range .Site.Data.projects }}
-    <div class="project-card" onclick="toggleBackdrop(this)">
+    {{ range .Pages }}
+    <div class="project-card">
         <div class="project-preview">
-            <img src="{{ .image }}" alt="{{ .name }}" class="project-image">
+            <img src="{{ .Params.image }}" alt="{{ .Title }}" class="project-image">
             <div class="project-info">
-                <h3>{{ .name }}</h3>
-                <p class="project-date">{{ .date }}</p>
-                <p class="project-description">{{ .short_description }}</p>
+                <h3>{{ .Title }}</h3>
+                <p class="project-description">{{ .Params.description }}</p>
                 <div class="project-tech">
-                    {{ range .technologies }}
+                    {{ range .Params.tags }}
                     <span class="tech-tag">{{ . }}</span>
                     {{ end }}
                 </div>
@@ -17,12 +16,12 @@
         </div>
         <div class="project-backdrop">
             <div class="backdrop-content">
-                <h2>{{ .name }}</h2>
+                <h2>{{ .Title }}</h2>
                 <div class="backdrop-details">
-                    {{ .details | markdownify }}
+                    {{ .Content }}
                 </div>
-                {{ if .link }}
-                <a href="{{ .link }}" class="project-link" target="_blank" rel="noopener">View Project →</a>
+                {{ if .Params.link }}
+                <a href="{{ .Params.link }}" class="project-link" target="_blank" rel="noopener">View Project →</a>
                 {{ end }}
             </div>
         </div>
@@ -44,6 +43,8 @@
     overflow: hidden;
     cursor: pointer;
     transition: transform 0.3s ease;
+    background: var(--entry);
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
 .project-card:hover {
@@ -62,7 +63,6 @@
 
 .project-info {
     padding: 1rem;
-    background: var(--entry);
 }
 
 .project-info h3 {
@@ -70,14 +70,9 @@
     color: var(--primary);
 }
 
-.project-date {
+.project-description {
     color: var(--secondary);
     font-size: 0.9rem;
-    margin: 0.5rem 0;
-}
-
-.project-description {
-    color: var(--content);
     margin: 0.5rem 0;
 }
 
@@ -142,16 +137,21 @@
 </style>
 
 <script>
-function toggleBackdrop(element) {
-    const backdrop = element.querySelector('.project-backdrop');
-    backdrop.style.display = backdrop.style.display === 'flex' ? 'none' : 'flex';
+document.addEventListener('DOMContentLoaded', function() {
+    const cards = document.querySelectorAll('.project-card');
     
-    // Close backdrop when clicking outside
-    backdrop.addEventListener('click', function(e) {
-        if (e.target === backdrop) {
-            backdrop.style.display = 'none';
-        }
+    cards.forEach(card => {
+        card.addEventListener('click', function() {
+            const backdrop = this.querySelector('.project-backdrop');
+            backdrop.style.display = backdrop.style.display === 'flex' ? 'none' : 'flex';
+            
+            backdrop.addEventListener('click', function(e) {
+                if (e.target === backdrop) {
+                    backdrop.style.display = 'none';
+                }
+            });
+        });
     });
-}
+});
 </script>
 {{ end }} 
