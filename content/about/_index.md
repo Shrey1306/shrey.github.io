@@ -40,13 +40,13 @@ Relevant courses I've completed at Georgia Tech:
 - Networking (CS 3251)
 - Database Systems (CS 4400)
 
-##### Mathematics & Theory:**
+##### Mathematics & Theory:
 - Discrete Mathematics (CS 2050)
 - Linear Algebra (MATH 1554)
 - Combinatorics (MATH 3012)
 - Statistics (ISYE 3770)
 
-##### Special Topics & Linguistics Specialization:**
+##### Special Topics & Linguistics Specialization:
 - Startup Lab (CS 2701)
 - Ethics of Computing (CS 3001)
 - Applied Linguistics (LING 3100)
