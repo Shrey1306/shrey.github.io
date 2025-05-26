@@ -16,7 +16,7 @@ outputs:
   home:
     - HTML
     - RSS
-    - JSON # necessary for search
+    - JSON 
 
 params:
   env: production
