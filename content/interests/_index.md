@@ -5,6 +5,20 @@ title: "5-9"
 Here are some of my interests and hobbies (my after 9-5):
 
 
+#### Podcasts
+I listen to 
+- Joe Rogan 
+- Dwarkesh Patel
+- View from the top by GSB
+- Nikhil Kamath
+- Revisionist History
+- The David Rubenstein Show
+- Hannah Fry
+
+#### Guitar
+- Currently playing the Yamaha FGX800C
+- Open to suggestions for an electric guitar.
+
 #### Cricket
 I'm passionate about cricket and follow both domestic and international cricket closely.
 
@@ -18,22 +32,6 @@ I'm passionate about cricket and follow both domestic and international cricket 
         <p style="margin: 0.5rem 0; font-weight: bold;">Indian Cricket</p>
     </div>
 </div>
-
-#### Podcasts
-I listen to 
-- Joe Rogan 
-- Dwarkesh Patel
-- View from the top by GSB
-- Nikhil Kamath
-- Revisionist History
-- The David Rubenstein Show
-- Hannah Fry
-
-
-#### Guitar
-- Currently playing the Yamaha FGX800C
-- Open to suggestions for an electric guitar.
-
 
 #### Flights
 - I'm into aviation. I think modern travel is an engineering marvel. I wanted to be a pilot (still do) when I was younger.
