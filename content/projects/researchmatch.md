@@ -6,7 +6,7 @@ tags: ["Python", "JavaScript", "Redis", "Streamlit", "NLTK", "Scikit-learn", "Op
 image: "/img/researchMatch.png"
 ---
 
-<div class="substack-post-embed"><p lang="en">Finding the right professor to work with shouldn’t feel like doom-scrolling through half-broken faculty pages and Google Scholar profiles. 
+<div class="substack-post-embed" style="text-align: center; margin: 0 auto; max-width: 800px;"><p lang="en">Finding the right professor to work with shouldn't feel like doom-scrolling through half-broken faculty pages and Google Scholar profiles. 
 
 ResearchMatch flips that script with an automated pipeline that scrapes, enriches & ranks research profiles, then serves lightning-fast matches through an elegant web UI.
 
@@ -28,11 +28,11 @@ Crawl College-of-Computing (We did for Georgia tech, but it should work for othe
 
 Four LLM Scrapers:
 
-DeepSeek, GPT-4o, Mistral & Llama ingest each professor’s first Scholar page and produces a list of research topics
+DeepSeek, GPT-4o, Mistral & Llama ingest each professor's first Scholar page and produces a list of research topics
 
 Matching Engine:
 
-Keyword, TF-IDF & Word2Vec rank professors against the student’s query (secondary sort by citations/h-index)scikit-learn, gensim
+Keyword, TF-IDF & Word2Vec rank professors against the student's query (secondary sort by citations/h-index)scikit-learn, gensim
 
 Streamlit Dashboards:
 
@@ -40,7 +40,7 @@ Precision, recall, F1, BLEU, ROUGE plus live latency distributions.
 
 Streamlit, Plotly— Redis Cache. Last 1000 queries cached as {query_hash → response_blob} to short-circuit recomputation.
 
-Take-away: in <300 LOC we support five scraping methods, three matchers, evaluation against Perplexity SONAR “ground truth,” and a real-time metrics board—all backed by a single JSON file.
+Take-away: in <300 LOC we support five scraping methods, three matchers, evaluation against Perplexity SONAR "ground truth," and a real-time metrics board—all backed by a single JSON file.
 
 Performance Insights
 
@@ -94,11 +94,11 @@ Edge cache (CloudFront + Global Redis) for fully rendered search pages.
 
 Micro-cache inside the Matching Engine for 1 s hot-query bursts.
 
-Vector-search cache in Pinecone’s pod memory—evicts on LRU by embedding norm.
+Vector-search cache in Pinecone's pod memory—evicts on LRU by embedding norm.
 
 LLM response cache (S3 + Athena) keyed by [model, prompt_hash] to amortise API spend.
 
-What’s Next
+What's Next
 
 Incremental scraping using change-feeds rather than full re-crawls.
 
