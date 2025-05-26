@@ -56,7 +56,7 @@ This is a personal website built with [Hugo](https://gohugo.io/) using the [Pape
 ## 🛠️ Configuration Files
 - **`config.yml` and `hugo.toml`:**
   - Set your site title, baseURL, menu, theme, and other options.
-  - `baseURL` must match your deployed site URL (e.g. `https://shrey.github.io/`).
+  - `baseURL` must match your deployed site URL (e.g. `https://shrey1306.github.io/`).
   - `profileMode` controls the homepage profile section.
   - `customCSS` lets you add your own styles.
 - **`.github/workflows/hugo.yaml`:**
