@@ -6,34 +6,6 @@ tags: ["Python", "JavaScript", "Redis", "Streamlit", "NLTK", "Scikit-learn", "Op
 image: "/img/researchMatch.png"
 ---
 
-Built a comprehensive web application that matches students with research positions using multiple data sources and comprehensive matching algorithms.
-
-Current MVP Architecture:
-- Traditional Scraping: Crawls faculty pages using BeautifulSoup and DuckDuckGo API
-- Four LLM Scrapers: DeepSeek, GPT-4, Mistral & Llama for research topic extraction
-- Matching Engine: Keyword, TF-IDF & Word2Vec ranking with citation metrics
-- Streamlit Dashboards: Real-time metrics with Redis caching
-
-Performance Insights:
-- LLM vs. Scraping: Keyword scraping and Llama outperformed GPT-class models on F1 (≈ 0.27 vs 0.24)
-- Caching optimization: Reduced TF-IDF & Word2Vec latency from ~5ms to sub-ms
-- Real-time monitoring with box-plots and rolling 90% CIs
-
-Cloud-Native Architecture (For the future):
-- Ingestion: AWS Step Functions with K8s scraper jobs on Fargate
-- Enrichment: Flink/Kinesis stream processing for LLM microservices
-- Storage: Iceberg + S3 data lake, Aurora Postgres, Pinecone vector search
-- Core APIs: gRPC/GraphQL services for matching and personalization
-- Edge & UI: CloudFront with global Redis cache, Next.js SPA
-- Observability: Prometheus, OpenTelemetry, CloudWatch
-
-Future Features:
-- Incremental scraping using change-feeds
-- Hybrid ranker combining BM25, ANN & re-ranking LLM
-- Personalized digests through Notification Hub
-
-Developed for CS6675: Advanced Internet Systems and Applications at Georgia Tech.
-
 <div class="substack-post-embed"><p lang="en">Finding the right professor to work with shouldn’t feel like doom-scrolling through half-broken faculty pages and Google Scholar profiles. 
 
 ResearchMatch flips that script with an automated pipeline that scrapes, enriches & ranks research profiles, then serves lightning-fast matches through an elegant web UI.
@@ -138,4 +110,3 @@ ResearchMatch started as a 500 profiles JSON prototype; the envisioned pipeline 
 
 We built this as a team at Georgia Tech for CS6675: Advanced Internet Systems and Applications</p><p> - Shrey Gupta</p><a data-comment-link href="https://substack.com/@sgupta1306/note/c-120214927">Read on Substack</a></div><script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
 
-<a href="https://substack.com/profile/197564043-shrey-gupta/note/c-120214927" target="_blank" rel="noopener">Read on Substack</a> 
