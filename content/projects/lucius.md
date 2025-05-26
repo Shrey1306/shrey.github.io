@@ -24,4 +24,4 @@ monitoring through the Robin framework for safe and responsible AI-driven develo
     </video>
 </div>
 
-<a href="https://lucius-swe.streamlit.app/" target="_blank" rel="noopener">View Project</a> 
+<a href="https://lucius-swe.streamlit.app/" target="_blank" rel="noopener" style="text-decoration: underline;">View Project</a> 
