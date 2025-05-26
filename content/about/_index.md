@@ -21,32 +21,32 @@ I love working with:
 
 Relevant courses I've completed at Georgia Tech:
 
-**Core Computer Science:**
+##### Core Computer Science:
 - Data Structures and Algorithms (CS 1332)
 - Design and Analysis of Algorithms (CS 3510)
 - Systems and Networks (CS 2200)
 - Computer Architecture (CS 2110)
 - Object Oriented Programming (CS 1331)
 
-**AI & Machine Learning:**
+###### AI & Machine Learning:
 - Graduate Machine Learning (CS 7641)
 - Graduate Deep Learning (CS 7643)
 - Computer Vision (CS 4476)
 - Introduction to Artificial Intelligence (CS 3600)
 
-**Systems & Networking:**
+##### Systems & Networking:
 - Advanced Internet Systems and Applications (CS 6675)
 - Operating Systems (CS 3210)
 - Networking (CS 3251)
 - Database Systems (CS 4400)
 
-**Mathematics & Theory:**
+##### Mathematics & Theory:**
 - Discrete Mathematics (CS 2050)
 - Linear Algebra (MATH 1554)
 - Combinatorics (MATH 3012)
 - Statistics (ISYE 3770)
 
-**Special Topics & Linguistics Specialization:**
+##### Special Topics & Linguistics Specialization:**
 - Startup Lab (CS 2701)
 - Ethics of Computing (CS 3001)
 - Applied Linguistics (LING 3100)
