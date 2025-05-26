@@ -4,7 +4,6 @@ draft: false
 description: "AI-Powered Video Editing Software - Stanford TreeHacks 2024"
 tags: ["Python", "Reflex", "ReactJS", "Whisper", "Roberta", "T5", "DeepFace", "OpenCV", "Streamlit"]
 image: "/img/chopsticks.png"
-link: "https://chopsticks.streamlit.app/"
 ---
 
 Built a cutting-edge AI-powered video editing software that revolutionizes content creation for Twitch and YouTube creators.
@@ -15,4 +14,4 @@ Created a dual-mode interface with chat-powered editing and analytics, reducing 
 
 Implemented end-to-end video processing pipeline with voice transcription, chat analysis, and real-time processing using Reflex framework.
 
-<a href="https://chopsticks.streamlit.app/" target="_blank" rel="noopener">�� View Project</a> 
+<a href="https://chopsticks.streamlit.app/" target="_blank" rel="noopener">View Project</a> 

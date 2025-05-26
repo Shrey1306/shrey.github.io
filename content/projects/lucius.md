@@ -4,7 +4,6 @@ draft: false
 description: "AI-Powered Multi-Agent Software Development Orchestrator"
 tags: ["Python", "AWS", "Lambda", "S3", "CloudWatch", "Streamlit", "LLMs"]
 image: "/img/lucius.png"
-link: "https://lucius-swe.streamlit.app/"
 ---
 
 Built a multi-agent orchestrator that automates the entire software development lifecycle from idea to execution.
@@ -25,4 +24,4 @@ monitoring through the Robin framework for safe and responsible AI-driven develo
     </video>
 </div>
 
-<a href="https://lucius-swe.streamlit.app/" target="_blank" rel="noopener">�� View Project</a> 
+<a href="https://lucius-swe.streamlit.app/" target="_blank" rel="noopener">View Project</a> 

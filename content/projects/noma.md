@@ -4,7 +4,6 @@ draft: false
 description: "HackGT 2024 Winners: Best Overall - First Place"
 tags: ["JS", "Python", "ngrok", "Vision Language Models (VLMs)"]
 image: "/img/noma.png"
-link: "https://bit.ly/47V9ft2"
 ---
 
 A telemedicine platform for Mohs Micrographic Surgery, featuring real-time 3D facial visualization using Gaussian Splatting
@@ -15,4 +14,4 @@ medical transcriptions, streamlining surgical documentation and improving workfl
 
 Awarded first place out of 200+ teams at Georgia Tech's premier hackathon.
 
-<a href="https://bit.ly/47V9ft2" target="_blank" rel="noopener">�� View Project</a> 
+<a href="https://bit.ly/47V9ft2" target="_blank" rel="noopener">View Project</a> 
