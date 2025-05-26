@@ -1,0 +1,53 @@
+currently_reading:
+  - title: "Liar's Poker"
+    author: "Michael Lewis"
+    cover: "/img/books/liars-poker.jpg"
+    status: "reading"
+    
+  - title: "Jony Ive: The Genius Behind Apple's Greatest Products"
+    author: "Leander Kahney"
+    cover: "/img/books/jony-ive.jpg"
+    status: "reading"
+
+recently_read:
+  - title: "Skin in the Game"
+    author: "Nassim Nicholas Taleb"
+    cover: "/img/books/skin-in-the-game.jpg"
+    review: "Brilliant insights on risk, uncertainty, and decision-making"
+    
+  - title: "Freakonomics"
+    author: "Steven D. Levitt & Stephen J. Dubner"
+    cover: "/img/books/freakonomics.jpg"
+    
+  - title: "Outliers"
+    author: "Malcolm Gladwell"
+    cover: "/img/books/outliers.jpg"
+    
+  - title: "Shoe Dog"
+    author: "Phil Knight"
+    cover: "/img/books/shoe-dog.jpg"
+    
+  - title: "The Future of Humanity"
+    author: "Michio Kaku"
+    cover: "/img/books/future-of-humanity.jpg"
+    
+  - title: "Physics of the Impossible"
+    author: "Michio Kaku"
+    cover: "/img/books/physics-impossible.jpg"
+
+want_to_read:
+  - title: "Surely You're Joking, Mr. Feynman!"
+    author: "Richard P. Feynman"
+    cover: "/img/books/feynman.jpg"
+    
+  - title: "David and Goliath"
+    author: "Malcolm Gladwell"
+    cover: "/img/books/david-and-goliath.jpg"
+    
+  - title: "The Tipping Point"
+    author: "Malcolm Gladwell"
+    cover: "/img/books/tipping-point.jpg"
+    
+  - title: "The Technological Society"
+    author: "Jacques Ellul"
+    cover: "/img/books/technological-society.jpg"

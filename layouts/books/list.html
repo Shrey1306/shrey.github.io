@@ -1,0 +1,164 @@
+{{ define "main" }}
+<article class="books-list">
+    <header>
+        <h1>{{ .Title }}</h1>
+        {{ .Content }}
+    </header>
+
+    {{ range .Pages.GroupBy "Params.status" }}
+    <section class="book-section">
+        <h2>
+            {{ if eq .Key "reading" }}Currently Reading
+            {{ else if eq .Key "read" }}Recently Read  
+            {{ else if eq .Key "want-to-read" }}Want to Read
+            {{ else }}{{ .Key | title }}{{ end }}
+        </h2>
+        <div class="books-grid">
+            {{ range .Pages }}
+            {{ $cover := .Resources.GetMatch "cover.*" }}
+            {{ if $cover }}
+            {{ $resizedCover := $cover.Fit "320x480" }}
+            <div class="book-card">
+                <div class="book-cover">
+                    <a href="{{ .RelPermalink }}">
+                        <img src="{{ $resizedCover.RelPermalink }}" alt="{{ .Title }}" loading="lazy">
+                    </a>
+                    {{ if .Params.rating }}
+                    <div class="book-overlay">
+                        <div class="rating">
+                            {{ range (seq .Params.rating) }}★{{ end }}
+                            {{ range (seq (sub 5 .Params.rating)) }}☆{{ end }}
+                        </div>
+                    </div>
+                    {{ end }}
+                </div>
+                <div class="book-info">
+                    <h3 class="book-title">
+                        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+                    </h3>
+                    <p class="book-author">{{ .Params.author }}</p>
+                    {{ if .Params.progress }}
+                    <p class="book-progress">{{ .Params.progress }}</p>
+                    {{ end }}
+                </div>
+            </div>
+            {{ end }}
+            {{ end }}
+        </div>
+    </section>
+    {{ end }}
+</article>
+
+<style>
+/* Same CSS as above */
+.book-section {
+    margin: 3rem 0;
+}
+
+.books-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.book-card {
+    text-align: center;
+    transition: transform 0.2s ease;
+}
+
+.book-card:hover {
+    transform: translateY(-4px);
+}
+
+.book-cover {
+    position: relative;
+    margin-bottom: 1rem;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+}
+
+.book-cover img {
+    width: 100%;
+    height: 240px;
+    object-fit: cover;
+    transition: transform 0.2s ease;
+}
+
+.book-card:hover .book-cover img {
+    transform: scale(1.02);
+}
+
+.book-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.8);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.2s ease;
+    color: white;
+    font-weight: bold;
+}
+
+.book-card:hover .book-overlay {
+    opacity: 1;
+}
+
+.rating {
+    color: #ffd700;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    background: rgba(255,255,255,0.2);
+}
+
+.book-title {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0.5rem 0;
+    line-height: 1.3;
+}
+
+.book-title a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+.book-title a:hover {
+    text-decoration: underline;
+}
+
+.book-author {
+    font-size: 0.9rem;
+    color: var(--secondary);
+    margin: 0.25rem 0;
+}
+
+.book-progress {
+    font-size: 0.85rem;
+    color: var(--content);
+    font-style: italic;
+    margin: 0.5rem 0;
+}
+
+@media (max-width: 768px) {
+    .books-grid {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 1.5rem;
+    }
+    
+    .book-cover img {
+        height: 180px;
+    }
+    
+    .book-title {
+        font-size: 0.9rem;
+    }
+}
+</style>
+{{ end }} 
