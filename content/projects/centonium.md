@@ -1,7 +1,7 @@
 ---
 title: "Centonium"
 draft: false
-description: "An Agentic Browser [Chrome for AI Agents]"
+description: "An Agentic Browser [Chrome for AI Agents]. Best hack by AWS"
 tags: ["Python", "JavaScript", "AWS", "Kubernetes", "GraphRAG"]
 image: "/img/centonium.png"
 ---
