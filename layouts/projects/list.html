@@ -1,0 +1,157 @@
+{{ define "main" }}
+<div class="projects-container">
+    {{ range .Site.Data.projects }}
+    <div class="project-card" onclick="toggleBackdrop(this)">
+        <div class="project-preview">
+            <img src="{{ .image }}" alt="{{ .name }}" class="project-image">
+            <div class="project-info">
+                <h3>{{ .name }}</h3>
+                <p class="project-date">{{ .date }}</p>
+                <p class="project-description">{{ .short_description }}</p>
+                <div class="project-tech">
+                    {{ range .technologies }}
+                    <span class="tech-tag">{{ . }}</span>
+                    {{ end }}
+                </div>
+            </div>
+        </div>
+        <div class="project-backdrop">
+            <div class="backdrop-content">
+                <h2>{{ .name }}</h2>
+                <div class="backdrop-details">
+                    {{ .details | markdownify }}
+                </div>
+                {{ if .link }}
+                <a href="{{ .link }}" class="project-link" target="_blank" rel="noopener">View Project →</a>
+                {{ end }}
+            </div>
+        </div>
+    </div>
+    {{ end }}
+</div>
+
+<style>
+.projects-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.project-card {
+    position: relative;
+    border-radius: 8px;
+    overflow: hidden;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.project-card:hover {
+    transform: translateY(-5px);
+}
+
+.project-preview {
+    position: relative;
+}
+
+.project-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.project-info {
+    padding: 1rem;
+    background: var(--entry);
+}
+
+.project-info h3 {
+    margin: 0;
+    color: var(--primary);
+}
+
+.project-date {
+    color: var(--secondary);
+    font-size: 0.9rem;
+    margin: 0.5rem 0;
+}
+
+.project-description {
+    color: var(--content);
+    margin: 0.5rem 0;
+}
+
+.project-tech {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.tech-tag {
+    background: var(--tertiary);
+    color: var(--content);
+    padding: 0.2rem 0.5rem;
+    border-radius: 4px;
+    font-size: 0.8rem;
+}
+
+.project-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.8);
+    display: none;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+}
+
+.backdrop-content {
+    background: var(--entry);
+    padding: 2rem;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 90%;
+    max-height: 90vh;
+    overflow-y: auto;
+}
+
+.backdrop-content h2 {
+    color: var(--primary);
+    margin-top: 0;
+}
+
+.backdrop-details {
+    color: var(--content);
+    margin: 1rem 0;
+}
+
+.project-link {
+    display: inline-block;
+    color: var(--primary);
+    text-decoration: none;
+    margin-top: 1rem;
+}
+
+.project-link:hover {
+    text-decoration: underline;
+}
+</style>
+
+<script>
+function toggleBackdrop(element) {
+    const backdrop = element.querySelector('.project-backdrop');
+    backdrop.style.display = backdrop.style.display === 'flex' ? 'none' : 'flex';
+    
+    // Close backdrop when clicking outside
+    backdrop.addEventListener('click', function(e) {
+        if (e.target === backdrop) {
+            backdrop.style.display = 'none';
+        }
+    });
+}
+</script>
+{{ end }} 

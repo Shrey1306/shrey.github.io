@@ -1,0 +1,97 @@
+- name: "Noma"
+  short_description: "HackGT 2024 Winners: Best Overall - First Place"
+  image: "/img/projects/noma.jpg"
+  technologies: ["JS", "Python", "ngrok", "Vision Language Models (VLMs)"]
+  date: "September 2024"
+  details: |
+    A telemedicine platform for Mohs Micrographic Surgery, featuring real-time 3D facial visualization using Gaussian Splatting
+    (Nvidia Labs' InstantSplat) and Raycaster (three.js) to enhance surgical precision and support remote surgical consultations.
+    
+    Developed a GraphRAG pipeline using Neo4j, AWS Transcribe, and Meditron 7B to generate time-stamped, context-aware
+    medical transcriptions, streamlining surgical documentation and improving workflow efficiency over a secured network.
+    
+    Awarded first place out of 200+ teams at Georgia Tech's premier hackathon.
+  link: "https://bit.ly/47V9ft2"
+
+- name: "Centonium"
+  short_description: "An Agentic Browser [Chrome for AI Agents]"
+  image: "/img/projects/centonium.jpg"
+  technologies: ["Python", "JavaScript", "AWS", "Kubernetes", "GraphRAG"]
+  date: "Feb-March 2025"
+  details: |
+    Developed a scalable distributed browsing platform enabling autonomous agent navigation via schematic indexing.
+    
+    Engineered an Orchestrator with LLMCompiler and EigenTrust/PageRank for secure inter-agent communication.
+    
+    Built a User-Context Layer for secure, dynamic user profile management; Won 'Best Use of AWS' at Hacklytics 2025.
+
+- name: "Chopsticks"
+  short_description: "AI-Powered Video Editing Software - Stanford TreeHacks 2024"
+  image: "/img/projects/chopsticks.jpg"
+  technologies: ["Python", "Reflex", "ReactJS", "Whisper", "Roberta", "T5", "DeepFace", "OpenCV", "Streamlit"]
+  date: "February 2024"
+  details: |
+    Built a cutting-edge AI-powered video editing software that revolutionizes content creation for Twitch and YouTube creators.
+
+    Developed an intelligent system using Whisper, Roberta, T5, and DeepFace for automated content analysis and key moment generation.
+
+    Created a dual-mode interface with chat-powered editing and analytics, reducing content editing time by 30% through automated clip identification.
+
+    Implemented end-to-end video processing pipeline with voice transcription, chat analysis, and real-time processing using Reflex framework.
+  link: "https://chopsticks.streamlit.app/"
+
+- name: "Lucius"
+  short_description: "AI-Powered Multi-Agent Software Development Orchestrator"
+  image: "/img/projects/lucius.jpg"
+  technologies: ["Python", "AWS", "Lambda", "S3", "CloudWatch", "Streamlit", "LLMs"]
+  date: "March 2025"
+  details: |
+    Built a multi-agent orchestrator that automates the entire software development lifecycle from idea to execution.
+    Engineered a team of specialized AI agents (Dent, Rachel, Alfred, Gordon, Scarecrow) working in parallel to generate PRDs, 
+    system designs, and production-grade code with comprehensive test coverage.
+    
+    Implemented a manifest-driven architecture using AWS Lambda and S3 for scalable deployment and runtime hosting, enabling rapid transformation 
+    of abstract ideas into fully functional, testable software systems within minutes. (Logs delivered through AWS CloudWatch)
+    
+    Currently in devlopment: a human-in-the-loop collaboration system with real-time editing capabilities and integrated security 
+    monitoring through the Robin framework for safe and responsible AI-driven development.
+
+  link: "https://lucius-swe.streamlit.app/"
+
+- name: "ResearchMatch"
+  short_description: "AI-Powered Research Position Matching Platform with Multi-LLM Evaluation"
+  image: "/img/projects/researchmatch.jpg"
+  technologies: ["Python", "JavaScript", "Redis", "Streamlit", "NLTK", "Scikit-learn", "OpenAI", "DeepSeek", "Mistral", "Llama", "AWS", "Kubernetes", "Kafka", "Flink", "Pinecone"]
+  date: "February 2025"
+  details: |
+    Built a comprehensive web application that matches students with research positions using multiple data sources and comprehensive matching algorithms.
+    
+    Current MVP Architecture:
+    - Traditional Scraping: Crawls faculty pages using BeautifulSoup and DuckDuckGo API
+    - Four LLM Scrapers: DeepSeek, GPT-4, Mistral & Llama for research topic extraction
+    - Matching Engine: Keyword, TF-IDF & Word2Vec ranking with citation metrics
+    - Streamlit Dashboards: Real-time metrics with Redis caching
+    
+    Performance Insights:
+    - LLM vs. Scraping: Keyword scraping and Llama outperformed GPT-class models on F1 (≈ 0.27 vs 0.24)
+    - Caching optimization: Reduced TF-IDF & Word2Vec latency from ~5ms to sub-ms
+    - Real-time monitoring with box-plots and rolling 90% CIs
+    
+    Cloud-Native Architecture (For the future):
+    - Ingestion: AWS Step Functions with K8s scraper jobs on Fargate
+    - Enrichment: Flink/Kinesis stream processing for LLM microservices
+    - Storage: Iceberg + S3 data lake, Aurora Postgres, Pinecone vector search
+    - Core APIs: gRPC/GraphQL services for matching and personalization
+    - Edge & UI: CloudFront with global Redis cache, Next.js SPA
+    - Observability: Prometheus, OpenTelemetry, CloudWatch
+    
+    Future Features:
+    - Incremental scraping using change-feeds
+    - Hybrid ranker combining BM25, ANN & re-ranking LLM
+    - Personalized digests through Notification Hub
+    
+    Developed for CS6675: Advanced Internet Systems and Applications at Georgia Tech.
+  link: "https://substack.com/profile/197564043-shrey-gupta/note/c-120214927"
+
+
+

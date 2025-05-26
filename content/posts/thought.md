@@ -1,5 +1,5 @@
 ---
-title: "Thoughts on Reasoning"
+subtitle: "What is reasoning?"
 date: 2025-02-04
 draft: false
 ---
