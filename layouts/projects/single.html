@@ -1,0 +1,26 @@
+{{ define "main" }}
+<article class="project-single">
+    <header class="project-header">
+        <h1>{{ .Title }}</h1>
+        {{ if .Params.image }}
+        <img src="{{ .Params.image }}" alt="{{ .Title }}" class="project-banner">
+        {{ end }}
+    </header>
+
+    <div class="project-body">
+        {{ .Content }}
+    </div>
+
+    {{ if .Params.link }}
+    <p class="project-external">
+        <a href="{{ .Params.link }}" target="_blank" rel="noopener" class="project-link-btn">Visit Project →</a>
+    </p>
+    {{ end }}
+</article>
+
+<style>
+.project-banner{width:100%;max-height:400px;object-fit:cover;border-radius:8px;margin:1rem 0;}
+.project-link-btn{display:inline-block;padding:0.6rem 1.2rem;background:var(--primary);color:var(--theme);border-radius:4px;text-decoration:none;font-weight:600;}
+.project-link-btn:hover{opacity:0.85;}
+</style>
+{{ end }} 

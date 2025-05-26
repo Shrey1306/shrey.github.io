@@ -3,7 +3,7 @@ title: "Lucius"
 draft: false
 description: "AI-Powered Multi-Agent Software Development Orchestrator"
 tags: ["Python", "AWS", "Lambda", "S3", "CloudWatch", "Streamlit", "LLMs"]
-image: "static/img/lucius.png"
+image: "/img/lucius.png"
 link: "https://lucius-swe.streamlit.app/"
 ---
 

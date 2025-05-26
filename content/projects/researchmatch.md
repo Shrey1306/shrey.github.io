@@ -3,7 +3,7 @@ title: "ResearchMatch"
 draft: false
 description: "AI-Powered Research Position Matching Platform with Multi-LLM Evaluation"
 tags: ["Python", "JavaScript", "Redis", "Streamlit", "NLTK", "Scikit-learn", "OpenAI", "DeepSeek", "Mistral", "Llama", "AWS", "Kubernetes", "Kafka", "Flink", "Pinecone"]
-image: "static/img/researchMatch.png"
+image: "/img/researchMatch.png"
 link: "https://substack.com/profile/197564043-shrey-gupta/note/c-120214927"
 ---
 
