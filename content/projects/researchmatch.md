@@ -10,7 +10,7 @@ image: "/img/researchMatch.png"
 
 ResearchMatch flips that script with an automated pipeline that scrapes, enriches & ranks research profiles, then serves lightning-fast matches through an elegant web UI.
 
-Below is a behind-the-scenes look at the architecture you can run in a single Python script today—and the cloud-native design it will evolve into tomorrow.
+Below is a behind-the-scenes look at the architecture you can run in a single Python script today—and the cloud-native design.
 
 Why We Built It
 
@@ -18,7 +18,7 @@ Lower the barrier to undergraduate and graduate research.
 
 Benchmark LLMs against traditional NLP baselines on a real task.
 
-Exercise full-stack muscle—from scrapers to observability dashboards.
+Exercise full-stack muscle—from scrapers to observability dashboards to attempt to solve its engineering at scale.
 
 Current MVP Architecture
 
@@ -104,9 +104,9 @@ Incremental scraping using change-feeds rather than full re-crawls.
 
 Hybrid ranker that blends BM25, ANN & re-ranking LLM in a single gRPC hop.
 
-Personalised digests—a Notification Hub surfaces new papers or open RA-ships the moment they land.
+Personalised digests—a Notification Hub surfaces new papers the moment they land.
 
 ResearchMatch started as a 500 profiles JSON prototype; the envisioned pipeline can ingest every faculty profile on Earth and serve sub-second, personalised matches.
 
-We built this as a team at Georgia Tech for CS6675: Advanced Internet Systems and Applications</p><p> - Shrey Gupta</p><a data-comment-link href="https://substack.com/@sgupta1306/note/c-120214927">Read on Substack</a></div><script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
+We built this as a team at Georgia Tech for CS6675: Advanced Internet Systems and Applications</p><p> - Shrey Gupta</p><a data-comment-link href="https://substack.com/profile/197564043-shrey-gupta/note/c-120214927">Read on Substack</a></div><script async src="https://substack.com/embedjs/embed.js" charset="utf-8"></script>
 
