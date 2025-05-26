@@ -3,7 +3,7 @@ title: "Noma"
 draft: false
 description: "HackGT 2024 Winners: Best Overall - First Place"
 tags: ["JS", "Python", "ngrok", "Vision Language Models (VLMs)"]
-image: "/img/noma.png"link: "https://bit.ly/47V9ft2"
+image: "/img/noma.png"
 ---
 
 A telemedicine platform for Mohs Micrographic Surgery, featuring real-time 3D facial visualization using Gaussian Splatting
